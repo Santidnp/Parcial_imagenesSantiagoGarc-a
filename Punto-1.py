@@ -1,5 +1,5 @@
 import cv2
-import matplotlib.pyplot as plt
+
 import numpy as np
 Img = cv2.imread(r'C:\Users\sngh9\OneDrive\Escritorio\Maestria_Semestre_2\Procesamiento_de_imagenes\Parcial\soccer_game.png')
 image_hsv = cv2.cvtColor(Img, cv2.COLOR_BGR2HSV)
